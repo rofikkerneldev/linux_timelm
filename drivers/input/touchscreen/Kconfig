@@ -1402,6 +1402,17 @@ config TOUCHSCREEN_ZINITIX
 	  To compile this driver as a module, choose M here: the
 	  module will be called zinitix.
 
+config TOUCHSCREEN_SW42902
+	tristate "Silicon Works SW42902 touchscreen"
+	depends on I2C
+	depends on GPIOLIB
+	help
+	  Say Y here for the SW42902 I2C touchscreen used in the LG V60.
+	  Basic multitouch uses the controller's existing flash firmware.
+
+	  To compile this driver as a module, choose M here: the module
+	  will be called sw42902.
+
 config TOUCHSCREEN_HIMAX_HX83112B
 	tristate "Himax hx83112b touchscreen driver"
 	depends on I2C
