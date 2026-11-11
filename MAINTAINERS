@@ -15235,6 +15235,7 @@ LG SW43103 PANEL DRIVER
 M:	rofikkerneldev <rofikcoga@gmail.com>
 S:	Maintained
 F:	Documentation/devicetree/bindings/display/panel/lg,sw43103.yaml
+F:	drivers/gpu/drm/panel/panel-lg-sw43103.c
 
 LG V60 THINQ 5G (TIMELM) SUPPORT
 M:	rofikkerneldev <rofikcoga@gmail.com>
